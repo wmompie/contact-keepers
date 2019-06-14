@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ContactKeeper",
+  "name": "ContactKeeper | Keep track of your contacts",
   "icons": [
     {
       "src": "favicon.ico",
