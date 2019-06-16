@@ -40,10 +40,11 @@ const ContactItem = ({ contact }) => {
           className='bttn btn-dark btn-sm'
           onClick={() => {
             setCurrent(contact);
-          }}>
+          }}
+          style={{ cursor: 'pointer' }}>
           Edit
         </button>
-        <button className='bttn btn-danger btn-sm' onClick={onDelete}>
+        <button className='bttn btn-danger btn-sm' onClick={onDelete} style={{ cursor: 'pointer' }}>
           Delete
         </button>
       </p>

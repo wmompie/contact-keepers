@@ -57,8 +57,17 @@ const ContactForm = () => {
         value='personal'
         checked={type === 'personal'}
         onChange={onChange}
-      /> Personal{' '}
-      <input type='radio' name='type' value='professional' checked={type === 'professional'} onChange={onChange} />{' '}
+        style={{ cursor: 'pointer' }}
+      />{' '}
+      Personal{' '}
+      <input
+        type='radio'
+        name='type'
+        value='professional'
+        checked={type === 'professional'}
+        onChange={onChange}
+        style={{ cursor: 'pointer' }}
+      />{' '}
       Professional
       <div>
         <input type='submit' value={current ? 'Update Contact' : 'Add Contact'} className='btn btn-primary btn-block' />
